@@ -1,0 +1,23 @@
+{
+  "name": "pos-state-manager",
+  "version": "1.0.0",
+  "description": "PoS State Manager using mqtt broker server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denissys/pos-state-manager.git"
+  },
+  "author": "Denis Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denissys/pos-state-manager/issues"
+  },
+  "homepage": "https://github.com/denissys/pos-state-manager#readme",
+  "dependencies": {
+    "mqtt": "^2.15.0",
+    "yaml-config": "^0.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+default:
+  mqtt:
+    protocol: mqtt://
+    addrees: localhost
+    port: 1883
+    topic: pos-state
+    qos:
+      level: 1
+      retain: true
