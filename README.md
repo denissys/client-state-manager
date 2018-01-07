@@ -17,7 +17,7 @@ npm install
 ## Pre-requirements
 
 You need install: 
-- mongodb
+- mqtt
 - redis
 
 ## Run
