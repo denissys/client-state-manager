@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/denissys/pos-state-manager#readme",
   "dependencies": {
+    "dateformat": "^3.0.2",
     "mqtt": "^2.15.0",
+    "redis": "^2.8.0",
     "yaml-config": "^0.3.0"
   }
 }

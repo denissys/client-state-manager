@@ -1,5 +1,7 @@
 'use strict'
 
-var settings = require('./lib/util/settings.js').load('default').read();
-var mqttServerBroker = require("./lib/server/mqtt/server.js").load(settings).start();
-var posStatePersistenceWorker = require("./lib/worker/pos-state-persistence-worker.js").load(settings, mqttServerBroker).execute();
+const settings = require('./lib/utils/settings.js').load('default').read(),
+      mqttServerBroker = require('./lib/clients/mqtt/mqtt-server-broker.js').load(settings).start(),
+      clientStatePersistenceWorker = require('./lib/workers/client-state-persistence-worker.js').load(settings, mqttServerBroker);
+
+clientStatePersistenceWorker.execute();

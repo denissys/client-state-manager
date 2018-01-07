@@ -1,17 +1,24 @@
 # pos-state-manager
 
-PoS (Point of Sale) State Manager is a simple application to read a keep-alive state of IoT dispositives, using:
-- mqtt
+Client State Manager is a simple application that obtain the keep-alive state of clients of messaging solution and store in an in-memory data structure, using:
+- mqtt (http://mqtt.org/)
+- redis (https://redis.io/)
 
 ## Installation
 
 Install via git clone:
 
 ```bash
-git clone https://github.com/denissys/pos-emulator
-cd pos-emulator
+git clone https://github.com/denissys/client-state-manager
+cd client-state-manager
 npm install
 ```
+
+## Pre-requirements
+
+You need install: 
+- mongodb
+- redis
 
 ## Run
 
