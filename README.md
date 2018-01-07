@@ -1,6 +1,6 @@
 # client-state-manager
 
-Client State Manager is a simple application that obtain the keep-alive state of clients of messaging solution and store in an in-memory data structure, using:
+Client State Manager is a simple application that obtain the keep-alive state of clients in a messaging solution and store in an in-memory data structure, using:
 - mqtt (http://mqtt.org/)
 - redis (https://redis.io/)
 
